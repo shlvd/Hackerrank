@@ -1,4 +1,4 @@
-def myAtoi(self, str):
+def myAtoi(str):
         INT_MAX, INT_MIN = 2**31 - 1, -2**31
         str = str.lstrip(" ")
         if not str: return 0
